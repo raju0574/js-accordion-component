@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accordion Component</title>
+	<link rel="stylesheet" href="accordion.css"></link>
+</head>
+<body>
+	<h4> Accordion with Single Tab Open</h2>
+	<hr>
+	<ul class="component-accordion accordion" data-type="single">
+		<li class="role-parent parent active">
+			<a href="#" class="role-tab tab" aria-expanded="true">
+				Accordion Header 1
+			</a>
+			<div class="role-content content" aria-hidden="true">
+				<ul>
+					<li>Accordion Content 1</li>
+					<a href="#">Accordion Content Link 1</a>
+					<li>Accordion Content 2</li>
+					<li>Accordion Content 3</li>
+				</ul>
+			</div>
+		</li>
+		<li class="role-parent parent">
+			<a href="#" class="role-tab tab" aria-expanded="false">
+				Accordion Header 2
+			</a>
+			<div class="role-content content" aria-hidden="true">
+				<ul>
+					<li>Accordion Content 1</li>
+					<li>Accordion Content 2</li>
+					<li>Accordion Content 3</li>
+					<a href="#">Accordion Content Link 3</a>
+				</ul>
+			</div>
+		</li>
+		<li class="role-parent parent">
+			<a href="#" class="role-tab tab" aria-expanded="false">
+				Accordion Header 3
+			</a>
+			<div class="role-content content" aria-hidden="true">
+				<ul>
+					<li>Accordion Content 1</li>
+					<li>Accordion Content 2</li>
+					<a href="#">Accordion Content Link 2</a>
+					<li>Accordion Content 3</li>
+				</ul>
+			</div>
+		</li>
+		<li class="role-parent parent">
+			<a href="#" class="role-tab tab" aria-expanded="false">
+				Accordion Header 4
+			</a>
+			<div class="role-content content" aria-hidden="true">
+				<ul>
+					<li>Accordion Content 1</li>
+					<li>Accordion Content 2</li>
+					<li>Accordion Content 3</li>
+					<a href="#">Accordion Content Link 3</a>
+				</ul>
+			</div>
+		</li>
+	</ul>
+	<h4> Accordion with Multi Tab Open</h2>
+	<hr>
+	<ul class="component-accordion accordion" data-type="multi">
+		<li class="role-parent parent">
+			<a href="#" class="role-tab tab" aria-expanded="false">
+				Second Accordion Header 1
+			</a>
+			<div class="role-content content" aria-hidden="true">
+				<ul>
+					<a href="#">Accordion Content Link 1</a>
+					<li>Accordion Content 1</li>
+					<li>Accordion Content 2</li>
+					<li>Accordion Content 3</li>
+				</ul>
+			</div>
+		</li>
+		<li class="role-parent parent">
+			<a href="#" class="role-tab tab" aria-expanded="false">
+				Second Accordion Header 2
+			</a>
+			<div class="role-content content" aria-hidden="true">
+				<ul>
+					<li>Accordion Content 1</li>
+					<a href="#">Accordion Content Link 2</a>
+					<li>Accordion Content 2</li>
+					<li>Accordion Content 3</li>
+				</ul>
+			</div>
+		</li>
+		<li class="role-parent parent">
+			<a href="#" class="role-tab tab" aria-expanded="false">
+				Second Accordion Header 3
+			</a>
+			<div class="role-content content" aria-hidden="true">
+				<ul>
+					<li>Accordion Content 1</li>
+					<li>Accordion Content 2</li>
+					<a href="#">Accordion Content Link 2</a>
+					<li>Accordion Content 3</li>
+				</ul>
+			</div>
+		</li>
+		<li class="role-parent parent">
+			<a href="#" class="role-tab tab" aria-expanded="false">
+				Second Accordion Header 4
+			</a>
+			<div class="role-content content" aria-hidden="true">
+				<ul>
+					<li>Accordion Content 1</li>
+					<li>Accordion Content 2</li>
+					<li>Accordion Content 3</li>
+					<a href="#">Accordion Content Link 3</a>
+				</ul>
+			</div>
+		</li>
+	</ul>
+		
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
